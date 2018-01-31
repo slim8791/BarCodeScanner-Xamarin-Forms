@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BarCodeScanner"
+             x:Class="BarCodeScanner.MainPage">
+
+	<StackLayout 
+                 VerticalOptions="Center">
+	    <Button Text="Scan with Custom Page" Clicked="ScanCustomPage"></Button>
+	    <Button Text="Barcode Generator" Clicked="GenerateBarcode"></Button>
+    </StackLayout> 
+
+</ContentPage>
