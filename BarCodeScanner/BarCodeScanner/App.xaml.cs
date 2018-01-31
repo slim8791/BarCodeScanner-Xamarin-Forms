@@ -13,8 +13,7 @@ namespace BarCodeScanner
         {
             InitializeComponent();
 
-            MainPage = new BarCodeScanner.MainPage();
-        }
+            MainPage = new NavigationPage(new MainPage()); }
 
         protected override void OnStart()
         {
